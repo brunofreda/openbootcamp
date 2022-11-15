@@ -19,7 +19,7 @@ public class EjerciciosTema3 {
         System.out.println(resultado);
 
         Coche miCoche = new Coche();
-        miCoche.AumentarPuertas();
+        miCoche.aumentarPuertas();
         System.out.println(miCoche.puertas);
     }
 
@@ -30,7 +30,7 @@ public class EjerciciosTema3 {
     static class Coche {
         public int puertas = 2;
 
-        public void AumentarPuertas() {
+        public void aumentarPuertas() {
             this.puertas++;
         }
     }
