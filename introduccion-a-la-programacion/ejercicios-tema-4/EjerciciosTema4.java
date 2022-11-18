@@ -38,11 +38,12 @@ public class EjerciciosTema4 {
             numeroWhile++;
         }
         
+        int numeroDoWhile = 2;
+
         do {
-            System.out.println(numeroWhile);
-            numeroWhile++;
-            break;
-        } while (numeroWhile < 3);
+            System.out.println(numeroDoWhile);
+            numeroDoWhile++;
+        } while (numeroDoWhile < 3);
 
         for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
             System.out.println(numeroFor);
