@@ -52,9 +52,9 @@ class Persona {
 }
   
 class Cliente extends Persona {
-    int credito;
+    double credito;
 }
   
 class Trabajador extends Persona {
-    int salario;
+    double salario;
 }
