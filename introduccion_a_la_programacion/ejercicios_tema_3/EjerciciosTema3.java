@@ -21,7 +21,7 @@ public class EjerciciosTema3 {
 
         Coche miCoche = new Coche();
         miCoche.aumentarPuertas();
-        System.out.println("El coche tiene " + miCoche.puertas + " puertas");
+        System.out.println(miCoche.puertas);
     }
 
     public static int suma(int a, int b, int c) {
